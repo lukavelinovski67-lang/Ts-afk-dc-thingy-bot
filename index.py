@@ -1,3 +1,5 @@
+import subprocess
+subprocess.run(["apt-get", "install", "-y", "chromium-driver"], check=True)
 import discord
 from discord.ext import commands
 from selenium import webdriver
