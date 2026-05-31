@@ -1,4 +1,5 @@
 discord.py
 selenium
+Flask
 webdriver-manager
 psycopg2-binary
