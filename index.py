@@ -9,9 +9,9 @@ import os
 import time
 
 # ============ CONFIG ============
-DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN", "YOUR_DISCORD_TOKEN")
-ATERNOS_SESSION = os.environ.get("ATERNOS_SESSION", "YOUR_ATERNOS_SESSION")
-DATABASE_URL = os.environ.get("DATABASE_URL", "YOUR_DATABASE_URL")
+DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN")
+ATERNOS_SESSION = os.environ.get("ATERNOS_SESSION", "SLkefIvJmbAnAuSyV21uggdX8P93jmagNcpLvCVZjdHymTSl3EBOIbYQKXaVoofeuqyegaCOOWKbwadyvzH08SRWHWHsmgkqtl4Y")
+DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://idkmommyfuhme_user:IrJpLB9SwzCNuHxiTIErQ5d0EFueJSz7@dpg-d8e0n3740ujc73d4pdqg-a/idkmommyfuhme")
 PREFIX = "+"
 COOLDOWN_SECONDS = 30
 # ================================
