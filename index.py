@@ -348,7 +348,7 @@ async def cmd_logs(ctx):
     await ctx.reply(
         f"📋 **Recent Server Logs:**\n\n{lines}"
     )
-# flask
+    
 
 from flask import Flask
 from threading import Thread
